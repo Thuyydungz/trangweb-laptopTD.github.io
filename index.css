@@ -1,0 +1,98 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    #imgheader{
+        width: 100%;
+        height: auto;
+    }
+    .menu{
+        background-color: rgb(22, 177, 234);
+        margin: 0;
+    }
+    .menu ul{
+        display: flex;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #logo{
+        width: 30%;
+        height: auto;
+        
+    }
+    .menu #search{
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .menu img{
+        width: 15%;
+        height: 20px;
+        padding: 10px;
+        float: left;
+    }
+    .menu ul li{
+        list-style-type: none;
+        margin: auto;
+    }
+    .menu a{
+        text-decoration: none;
+        color: #fff;
+        font-family: cursive;
+        font-size: 12px;
+    }
+    .list-menu{
+        background-color: #fff;
+        border: 1px inset #ccc;
+    }
+    .list-menu ul{
+        display: flex;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .list-menuul li{
+        margin: auto;
+        list-style-type: none;
+        border: 1px outset orange;
+        padding: 10px;
+        box-sizing: 5px;
+    
+    }
+    .list-menu a{
+        text-decoration: none;
+        color: brown;
+        font-weight: bold;
+    }
+    .list-menu a:hover{
+        color:  rgb(22, 177, 234);
+        
+    }
+    .main{
+        margin-top: 10px;
+        border-radius: 5px;
+    
+    }
+    .menu-vertical{
+        float: left;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        width: 25%;
+        height: 300px;
+        background-color: cadetblue;
+        margin-top: 10px;
+    }
+    .menu-vertical ul{
+        display: block;
+        background-color: white;
+        margin-right: 50px;
+        margin-left: 20px;
+        padding-bottom: 120px;
+        list-style: none;
+    }
+    .menu-vertical ul li{
+        list-style-type: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 20px;
+    }
